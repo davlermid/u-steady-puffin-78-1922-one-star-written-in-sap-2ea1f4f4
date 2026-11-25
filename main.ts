@@ -8,7 +8,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ENTRY =
-  "One star. He mists my leaves daily like a spa day and never waters the soil. My roots are in a drought while my face is dewy.";
+  "One star. He mists my leaves daily like a spa day and never waters the soil. My roots are dying of thirst while my leaves get a facial.";
 
 const dir = dirname(fileURLToPath(import.meta.url));
 writeFileSync(join(dir, "entry.txt"), ENTRY, "utf8");
